@@ -15,7 +15,6 @@ recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 openai_api_key = "<your_openai_api_key>"  # Replace with your actual OpenAI API key
 news_api_key = "<your_news_api_key>"  # Replace with your actual NewsAPI key
-openai.api_key = openai_api_key
 
 def speak(text):
     # engine.setProperty('rate', 150)
